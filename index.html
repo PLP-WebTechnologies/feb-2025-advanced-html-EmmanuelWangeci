@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        header, nav, main, footer { padding: 10px; border: 1px solid #ddd; margin-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Advanced HTML5</h1>
+    </header>
+    
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Main Content Section -->
+    <main>
+        <section id="home">
+            <h2>Introduction</h2>
+            <p>HTML5 provides powerful elements to structure and enhance web content, including images, lists, tables, and forms.</p>
+        </section>
+
+        <!-- Ordered List with Roman Numerals -->
+        <section>
+            <h2>Topics Covered</h2>
+            <ol type="I">
+                <li>HTML5 Basics</li>
+                <li>Images and Multimedia</li>
+                <li>Forms and Validation</li>
+                <li>Tables and Lists</li>
+                <li>Advanced Elements</li>
+            </ol>
+        </section>
+
+        <!-- External Image -->
+        <section>
+            <h2>Sample Image</h2>
+            <img src="Developer.jpeg" alt="Sample Image" width="600">
+        </section>
+
+        <!-- Table of Contacts -->
+        <section>
+            <h2>Contact List</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Main St</td>
+                    <td>+1234567890</td>
+                    <td>johndoe@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Elm St</td>
+                    <td>+0987654321</td>
+                    <td>janesmith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Bob Johnson</td>
+                    <td>789 Oak St</td>
+                    <td>+1122334455</td>
+                    <td>bobjohnson@example.com</td>
+                </tr>
+                <tr>
+                    <td>Alice White</td>
+                    <td>101 Pine St</td>
+                    <td>+6677889900</td>
+                    <td>alicewhite@example.com</td>
+                </tr>
+                <tr>
+                    <td>Charlie Brown</td>
+                    <td>202 Cedar St</td>
+                    <td>+4455667788</td>
+                    <td>charliebrown@example.com</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Registration Form -->
+        <section>
+            <h2>Registration Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+                
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="canada">Canada</option>
+                </select>
+                
+                <label>
+                    <input type="checkbox" name="terms" required> I agree to the terms and conditions
+                </label>
+                
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us at <a href="mailto:info@example.com">info@example.com</a></p>
+    </footer>
+</body>
+</html>
